@@ -9,7 +9,7 @@ pacman::p_load(AER, sandwich, lmtest, car, stargazer, ggplot2, openintro, OIdata
                tidyquant, timetk, sweep, corrplot, vars, astsa, fastmatch, Hmisc,
                shiny, shinydashboard, DT, plotly, knitr, 
                quantmod, e1071, TTR, PerformanceAnalytics,
-               reticulate, bizdays, RQuantLib, odbc, varhandle, data.table
+               reticulate, bizdays, RQuantLib, odbc, varhandle, data.table, shiny, shinydashboard, 
                #for forecasts, dataset, Mcomp, smooth, tstools, greybox, stats, tseries, bstats
 )
 
