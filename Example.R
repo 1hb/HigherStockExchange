@@ -29,8 +29,12 @@ tcs2019 <- tcs.full['2019']
 #Have a fast look
 summary(tcs.full)
 
-#Plot
+#Plot 1
 tcs.full <- tcs.full %>% as.data.table()
 tcs.full %>% ggplot(aes(x = index, 
-                        y = TCS.Close), group = 1) + geom_line(show.legend = F) 
+                        y = TCS.Close), group = 1) + geom_line(show.legend = T) 
+
+#Plot 2
+tcs.full %>% ggplot(aes(x = index, 
+                        y = TCS.Volume %>% log()), group = 1) + geom_line(show.legend = T) 
 
