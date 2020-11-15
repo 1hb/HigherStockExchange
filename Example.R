@@ -9,8 +9,7 @@ pacman::p_load(AER, sandwich, lmtest, car, stargazer, ggplot2, openintro, OIdata
                tidyquant, timetk, sweep, corrplot, vars, astsa, fastmatch, Hmisc,
                shiny, shinydashboard, DT, plotly, knitr, 
                quantmod, e1071, TTR, PerformanceAnalytics,
-               reticulate, bizdays, RQuantLib, odbc, varhandle, data.table, shiny, shinydashboard, 
-               #for forecasts, dataset, Mcomp, smooth, tstools, greybox, stats, tseries, bstats
+               reticulate, bizdays, RQuantLib, odbc, varhandle, data.table, shiny, shinydashboard
 )
 
 load_quantlib_calendars("Russia", from = '2018-01-01', to = '2025-12-31')
