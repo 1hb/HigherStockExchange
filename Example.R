@@ -36,5 +36,6 @@ tcs.full %>% ggplot(aes(x = index,
 
 #Plot 2
 tcs.full %>% ggplot(aes(x = index, 
-                        y = TCS.Volume %>% log()), group = 1) + geom_line(show.legend = T) 
+                        y = TCS.Volume %>% log()), group = 1) + 
+                            geom_line(show.legend = T) 
 
